@@ -13,13 +13,14 @@ ul {`
     margin: 0;
     padding: 0;
     background-color: rgba(215, 11, 82, 0.541);
+    width: fit-content;
 }
 
 a {
-    display: block;
-    
     text-align: center;
-    margin: auto;
-    width: 70%;
     color: black;
+}
+
+a:hover {
+    background-color: rgb(249, 221, 119);
 }
