@@ -8,7 +8,7 @@ h1{
     font-size: 50px;
 }
 
-ul {`
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,6 +22,12 @@ a {
     background-color: rgba(215, 11, 82, 0.541);
 }
 
+li {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  } 
+  
 a:hover {
     background-color: rgb(249, 221, 119);
 }
