@@ -10,22 +10,21 @@ h1{
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    
+    width: fit-content;
 }
 
 a {
     text-align: center;
-    display: block;
+    display: inline-block;
     color: black;
     background-color: rgba(215, 11, 82, 0.541);
+    font-size: x-large;
 }
 
 li {
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
+    display: inline-block;
   } 
   
 a:hover {
